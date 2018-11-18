@@ -51,7 +51,7 @@ public abstract class MTAbstractAccentAction extends AnAction {
     MTThemeManager.getInstance().applyAccents();
     UIReplacer.patchUI();
 
-    IconReplacer.replaceIcons(AllIcons.class, "/icons");
+    IconReplacer.replaceIcons(AllIcons.class, "/iconsddlc");
     ActionToolbarImpl.updateAllToolbarsImmediately();
     MTAnalytics.getInstance().track(MTAnalytics.ACCENT, accentColor);
 

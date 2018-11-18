@@ -45,7 +45,7 @@ public final class MTIconReplacerComponent implements ApplicationComponent {
   @Override
   public void initComponent() {
     if (MTConfig.getInstance().isUseMaterialIcons()) {
-      IconReplacer.replaceIcons(AllIcons.class, "/icons");
+      IconReplacer.replaceIcons(AllIcons.class, "/iconsddlc");
     }
 
     IconLoader.installPathPatcher(new AllIconsPatcher());
