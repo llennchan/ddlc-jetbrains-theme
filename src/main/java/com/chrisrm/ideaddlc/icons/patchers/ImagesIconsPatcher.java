@@ -35,7 +35,7 @@ public class ImagesIconsPatcher extends MTIconPatcher {
   @Override
   @NotNull
   public String getPathToAppend() {
-    return "/icons/images";
+    return "/iconsddlc/images";
   }
 
   @Override

@@ -35,7 +35,7 @@ public class FlaskIconsPatcher extends MTIconPatcher {
   @Override
   @NotNull
   public String getPathToAppend() {
-    return "/icons/plugins/python/flask";
+    return "/iconsddlc/plugins/python/flask";
   }
 
   @Override

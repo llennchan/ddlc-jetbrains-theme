@@ -133,7 +133,7 @@ public final class MTPasswordFieldUI extends BasicPasswordFieldUI implements Con
 
         // Paint the preview icon
         final Point p = getPreviewIconCoord();
-        final String path = echoCharIsSet ? "/icons/mt/eye.svg" : "/icons/mt/eye-off.svg";
+        final String path = echoCharIsSet ? "/iconsddlc/mt/eye.svg" : "/iconsddlc/mt/eye-off.svg";
         final Icon searchIcon = IconLoader.findIcon(path, MTPasswordFieldUI.class, true);
         searchIcon.paintIcon(null, g, p.x, p.y);
 

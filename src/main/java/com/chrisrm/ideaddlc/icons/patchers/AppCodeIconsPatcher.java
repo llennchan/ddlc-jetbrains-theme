@@ -35,7 +35,7 @@ public class AppCodeIconsPatcher extends MTIconPatcher {
   @Override
   @NotNull
   public String getPathToAppend() {
-    return "/icons/plugins/appcode";
+    return "/iconsddlc/plugins/appcode";
   }
 
   @Override

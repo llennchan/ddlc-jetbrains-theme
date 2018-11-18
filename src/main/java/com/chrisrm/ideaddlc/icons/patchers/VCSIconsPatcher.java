@@ -35,7 +35,7 @@ public class VCSIconsPatcher extends MTIconPatcher {
   @Override
   @NotNull
   public String getPathToAppend() {
-    return "/icons/plugins/vcs";
+    return "/iconsddlc/plugins/vcs";
   }
 
   @Override

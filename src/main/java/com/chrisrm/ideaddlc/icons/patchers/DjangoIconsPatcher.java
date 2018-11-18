@@ -35,7 +35,7 @@ public class DjangoIconsPatcher extends MTIconPatcher {
   @Override
   @NotNull
   public String getPathToAppend() {
-    return "/icons/plugins/python/django";
+    return "/iconsddlc/plugins/python/django";
   }
 
   @Override

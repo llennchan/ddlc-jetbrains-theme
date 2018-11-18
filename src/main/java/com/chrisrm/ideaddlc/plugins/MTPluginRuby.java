@@ -36,7 +36,7 @@ public final class MTPluginRuby implements ApplicationComponent {
   public void initComponent() {
     try {
       final Class<?> iconsClass = Class.forName("icons.RubyIcons", false, getClass().getClassLoader());
-      IconReplacer.replaceIcons(iconsClass, "/icons/plugins/ruby/");
+      IconReplacer.replaceIcons(iconsClass, "/iconsddlc/plugins/ruby/");
     } catch (final ClassNotFoundException e) {
       // Suppress
     }

@@ -36,7 +36,7 @@ public final class MTPluginDatagrip implements ApplicationComponent {
   public void initComponent() {
     try {
       final Class<?> iconsClass = Class.forName("icons.DatabaseIcons", false, getClass().getClassLoader());
-      IconReplacer.replaceIcons(iconsClass, "/icons/plugins/datagrip/");
+      IconReplacer.replaceIcons(iconsClass, "/iconsddlc/plugins/datagrip/");
     } catch (final ClassNotFoundException e) {
       // Suppress
     }

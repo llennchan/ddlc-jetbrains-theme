@@ -35,7 +35,7 @@ public class MavenIconsPatcher extends MTIconPatcher {
   @Override
   @NotNull
   public String getPathToAppend() {
-    return "/icons/plugins/maven";
+    return "/iconsddlc/plugins/maven";
   }
 
   @Override

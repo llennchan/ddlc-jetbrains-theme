@@ -35,7 +35,7 @@ public class BuildToolsIconsPatcher extends MTIconPatcher {
   @Override
   @NotNull
   public String getPathToAppend() {
-    return "/icons/buildTools";
+    return "/iconsddlc/buildTools";
   }
 
   @Override

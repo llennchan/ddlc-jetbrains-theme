@@ -26,6 +26,6 @@
 
 <menuIcons>
     <menuIcons>
-        <menuIcon id="OpenFile" icon="/icons/actions/annotate.png"></menuIcon>
+        <menuIcon id="OpenFile" icon="/iconsddlc/actions/annotate.png"></menuIcon>
     </menuIcons>
 </menuIcons>

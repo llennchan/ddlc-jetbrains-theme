@@ -35,7 +35,7 @@ public class DatabaseToolsIconsPatcher extends MTIconPatcher {
   @Override
   @NotNull
   public String getPathToAppend() {
-    return "/icons/plugins/datagrip";
+    return "/iconsddlc/plugins/datagrip";
   }
 
   @Override

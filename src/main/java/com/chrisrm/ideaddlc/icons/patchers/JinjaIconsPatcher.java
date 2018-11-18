@@ -35,7 +35,7 @@ public class JinjaIconsPatcher extends MTIconPatcher {
   @Override
   @NotNull
   public String getPathToAppend() {
-    return "/icons/plugins/python/jinja";
+    return "/iconsddlc/plugins/python/jinja";
   }
 
   @Override

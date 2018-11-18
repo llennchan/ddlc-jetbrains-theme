@@ -35,7 +35,7 @@ public class CythonIconsPatcher extends MTIconPatcher {
   @Override
   @NotNull
   public String getPathToAppend() {
-    return "/icons/plugins/python/cython";
+    return "/iconsddlc/plugins/python/cython";
   }
 
   @Override

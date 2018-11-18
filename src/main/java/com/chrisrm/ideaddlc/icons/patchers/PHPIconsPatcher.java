@@ -35,7 +35,7 @@ public class PHPIconsPatcher extends MTIconPatcher {
   @Override
   @NotNull
   public String getPathToAppend() {
-    return "/icons/plugins/php";
+    return "/iconsddlc/plugins/php";
   }
 
   @Override

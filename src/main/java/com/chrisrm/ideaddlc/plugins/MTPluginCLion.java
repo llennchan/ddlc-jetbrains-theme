@@ -36,19 +36,19 @@ public final class MTPluginCLion implements ApplicationComponent {
   public void initComponent() {
     try {
       Class<?> iconsClass = Class.forName("icons.CLionIcons", false, getClass().getClassLoader());
-      IconReplacer.replaceIcons(iconsClass, "/icons/plugins/clion/");
+      IconReplacer.replaceIcons(iconsClass, "/iconsddlc/plugins/clion/");
 
       iconsClass = Class.forName("icons.CidrDebuggerIcons", false, getClass().getClassLoader());
-      IconReplacer.replaceIcons(iconsClass, "/icons/plugins/clion/");
+      IconReplacer.replaceIcons(iconsClass, "/iconsddlc/plugins/clion/");
 
       iconsClass = Class.forName("icons.RemoteServersIcons", false, getClass().getClassLoader());
-      IconReplacer.replaceIcons(iconsClass, "/icons/plugins/clion/");
+      IconReplacer.replaceIcons(iconsClass, "/iconsddlc/plugins/clion/");
 
       iconsClass = Class.forName("icons.CidrLangIcons", false, getClass().getClassLoader());
-      IconReplacer.replaceIcons(iconsClass, "/icons/plugins/clion/");
+      IconReplacer.replaceIcons(iconsClass, "/iconsddlc/plugins/clion/");
 
       iconsClass = Class.forName("icons.VcsLogIcons", false, getClass().getClassLoader());
-      IconReplacer.replaceIcons(iconsClass, "/icons/plugins/clion/");
+      IconReplacer.replaceIcons(iconsClass, "/iconsddlc/plugins/clion/");
     } catch (final ClassNotFoundException e) {
       // Suppress
     }

@@ -35,7 +35,7 @@ public class RubyIconsPatcher extends MTIconPatcher {
   @Override
   @NotNull
   public String getPathToAppend() {
-    return "/icons/plugins/ruby";
+    return "/iconsddlc/plugins/ruby";
   }
 
   @Override

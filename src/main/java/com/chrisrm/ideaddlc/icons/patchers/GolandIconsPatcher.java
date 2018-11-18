@@ -35,7 +35,7 @@ public class GolandIconsPatcher extends MTIconPatcher {
   @Override
   @NotNull
   public String getPathToAppend() {
-    return "/icons/plugins/go";
+    return "/iconsddlc/plugins/go";
   }
 
   @Override

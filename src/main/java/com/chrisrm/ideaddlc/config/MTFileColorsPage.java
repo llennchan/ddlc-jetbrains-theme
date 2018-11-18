@@ -99,7 +99,7 @@ public final class MTFileColorsPage implements ColorSettingsPage, DisplayPriorit
 
   @Override
   public Icon getIcon() {
-    return IconLoader.getIcon("/icons/ddlc/ddlcTheme.svg");
+    return IconLoader.getIcon("/iconsddlc/ddlc/ddlcTheme.svg");
   }
 
   @NotNull

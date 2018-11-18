@@ -35,7 +35,7 @@ public class PythonIconsPatcher extends MTIconPatcher {
   @Override
   @NotNull
   public String getPathToAppend() {
-    return "/icons/plugins/python";
+    return "/iconsddlc/plugins/python";
   }
 
   @Override

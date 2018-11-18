@@ -35,7 +35,7 @@ public class RestClientIconsPatcher extends MTIconPatcher {
   @Override
   @NotNull
   public String getPathToAppend() {
-    return "/icons/plugins/rest";
+    return "/iconsddlc/plugins/rest";
   }
 
   @Override

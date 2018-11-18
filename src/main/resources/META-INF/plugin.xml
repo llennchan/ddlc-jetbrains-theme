@@ -151,65 +151,65 @@
 
     <actions>
         <group id="DDLC.ThemeChooser" text="DDLC Themes" popup="true"
-               icon="/icons/ddlc/ddlcTheme.svg">
+               icon="/iconsddlc/ddlc/ddlcTheme.svg">
             <add-to-group group-id="MainToolBar" anchor="last"/>
 
             <action id="MonikaTheme" class="io.acari.DDLC.actions.themes.literature.club.JustMonikaThemeAction"
                     text="Just Monika" description="Just Monika"
-                    icon="/icons/actions/themes/material_monika@2x.png">
+                    icon="/iconsddlc/actions/themes/material_monika@2x.png">
             </action>
             <separator/>
             <action id="SayoriTheme" class="io.acari.DDLC.actions.themes.literature.club.SayoriThemeAction"
                     text="Sayori" description="Sayori"
-                    icon="/icons/actions/themes/material_sayori@2x.png">
+                    icon="/iconsddlc/actions/themes/material_sayori@2x.png">
             </action>
             <action id="NatsukiTheme" class="io.acari.DDLC.actions.themes.literature.club.NatsukiThemeAction"
                     text="Natsuki" description="Natsuki"
-                    icon="/icons/actions/themes/material_natsuki@2x.png">
+                    icon="/iconsddlc/actions/themes/material_natsuki@2x.png">
             </action>
             <action id="Yuri" class="io.acari.DDLC.actions.themes.literature.club.YuriThemeAction"
                     text="Yuri" description="Yuri"
-                    icon="/icons/actions/themes/material_yuri@2x.png">
+                    icon="/iconsddlc/actions/themes/material_yuri@2x.png">
             </action>
         </group>
 
         <group id="DDLC.Panels" text="DDLC Options" description="Panel Options" popup="true"
-               icon="/icons/actions/mt/pen.svg">
+               icon="/iconsddlc/actions/mt/pen.svg">
             <add-to-group group-id="MainToolBar" anchor="last"/>
             <group id="DDLCWeebShit" text="Chibi Options" popup="true"
-                   icon="/icons/actions/themes/material_monika.png">
+                   icon="/iconsddlc/actions/themes/material_monika.png">
                 <action id="ChibiOff" class="io.acari.DDLC.actions.NoChibiAction"
                         text="No Windows" description="No Windows"
-                        icon="/icons/actions/cancel.svg">
+                        icon="/iconsddlc/actions/cancel.svg">
                 </action>
                 <action id="ChibiOn" class="io.acari.DDLC.actions.SomeChibiAction"
                         text="Some Windows" description="Some Windows"
-                        icon="/icons/codeStyle/mac/AddNewSectionRule.svg">
+                        icon="/iconsddlc/codeStyle/mac/AddNewSectionRule.svg">
                 </action>
                 <separator/>
             </group>
             <action class="io.acari.DDLC.actions.DarkModeAction" id="DarkMode" text="Toggle Dark Mode"
-                    icon="/icons/actions/themes/material_monkia_dark.png"
+                    icon="/iconsddlc/actions/themes/material_monkia_dark.png"
                     description="Toggle Dark Mode"/>
             <action class="io.acari.DDLC.actions.JoyAction" id="DDLCJoy"
                     text="Swap Chibi"
-                    icon="/icons/actions/mt/joy.png"
+                    icon="/iconsddlc/actions/mt/joy.png"
                     description="Swap Chibi"/>
             <group id="arrowsStyles" text="Arrow Styles" popup="true">
                 <action class="com.chrisrm.ideaddlc.actions.arrows.MTMaterialArrows"
                         id="MTMaterialArrows"
                         text="Set Material Arrows style"
-                        icon="/icons/actions/arrows/material.svg"
+                        icon="/iconsddlc/actions/arrows/material.svg"
                         description="Set Material Arrows style"/>
                 <action class="com.chrisrm.ideaddlc.actions.arrows.MTDarculaArrows"
                         id="MTDarculaArrows"
                         text="Set Darcula Arrows style"
-                        icon="/icons/actions/arrows/darcula.svg"
+                        icon="/iconsddlc/actions/arrows/darcula.svg"
                         description="Set Darcula Arrows style"/>
                 <action class="com.chrisrm.ideaddlc.actions.arrows.MTPlusMinusArrows"
                         id="MTPlusMinusArrows"
                         text="Set Plus-Minus Arrows style"
-                        icon="/icons/actions/arrows/plusminus.svg"
+                        icon="/iconsddlc/actions/arrows/plusminus.svg"
                         description="Set Plus-Minus Arrows style"/>
                 <action class="com.chrisrm.ideaddlc.actions.arrows.MTNoneArrows"
                         id="MTNoneArrows"
@@ -220,12 +220,12 @@
                 <action class="com.chrisrm.ideaddlc.actions.indicators.MTBorderIndicators"
                         id="MTBorderIndicators"
                         text="Set Border Indicators style"
-                        icon="/icons/actions/indicators/border.svg"
+                        icon="/iconsddlc/actions/indicators/border.svg"
                         description="Set Border Indicators style"/>
                 <action class="com.chrisrm.ideaddlc.actions.indicators.MTDotIndicators"
                         id="MTDotIndicators"
                         text="Set Dot Indicators style"
-                        icon="/icons/actions/indicators/dot.svg"
+                        icon="/iconsddlc/actions/indicators/dot.svg"
                         description="Set Dot Indicators style"/>
                 <action class="com.chrisrm.ideaddlc.actions.indicators.MTNoneIndicators"
                         id="MTNoneIndicators"
@@ -235,7 +235,7 @@
 
         </group>
 
-        <group id="DDLC.Menu" text="DDLC Theme" popup="true" icon="/icons/ddlc/ddlcTheme.svg">
+        <group id="DDLC.Menu" text="DDLC Theme" popup="true" icon="/iconsddlc/ddlc/ddlcTheme.svg">
             <reference id="DDLC.ThemeChooser"/>
             <separator/>
             <reference id="DDLC.Panels"/>

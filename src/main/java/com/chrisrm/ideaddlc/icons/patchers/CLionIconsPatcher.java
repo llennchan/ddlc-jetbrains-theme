@@ -35,7 +35,7 @@ public class CLionIconsPatcher extends MTIconPatcher {
   @Override
   @NotNull
   public String getPathToAppend() {
-    return "/icons/plugins/clion";
+    return "/iconsddlc/plugins/clion";
   }
 
   @Override

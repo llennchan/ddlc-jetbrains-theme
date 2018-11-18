@@ -61,8 +61,8 @@ public class ThemedTintedIconsPatcher extends IconPathPatcher {
     REPLACEMENTS.put("/mac/plusminus/plus", "MTIcons.Arrows.Plus");
     REPLACEMENTS.put("/mac/plusminus/minus", "MTIcons.Arrows.Minus");
 
-    REPLACEMENTS.put("/icons/plugins/datagrip/objectGroup", "MTIcons.DataGrip.ObjectGroup");
-    REPLACEMENTS.put("/icons/plugins/datagrip/table", "MTIcons.DataGrip.Table");
+    REPLACEMENTS.put("/iconsddlc/plugins/datagrip/objectGroup", "MTIcons.DataGrip.ObjectGroup");
+    REPLACEMENTS.put("/iconsddlc/plugins/datagrip/table", "MTIcons.DataGrip.Table");
   }
 
   public static void clearCache() {

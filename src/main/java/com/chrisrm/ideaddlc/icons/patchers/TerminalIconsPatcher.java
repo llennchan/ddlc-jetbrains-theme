@@ -35,7 +35,7 @@ public class TerminalIconsPatcher extends MTIconPatcher {
   @Override
   @NotNull
   public String getPathToAppend() {
-    return "/icons/terminal";
+    return "/iconsddlc/terminal";
   }
 
   @Override

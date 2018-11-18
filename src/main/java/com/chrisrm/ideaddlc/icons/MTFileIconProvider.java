@@ -139,7 +139,7 @@ public final class MTFileIconProvider extends IconProvider implements DumbAware 
 
     try {
       final String iconPath = association.getIcon();
-      icon = new DirIcon(IconLoader.getIcon("/icons/folders" + iconPath), IconLoader.getIcon("/icons/foldersOpen" + iconPath));
+      icon = new DirIcon(IconLoader.getIcon("/iconsddlc/folders" + iconPath), IconLoader.getIcon("/iconsddlc/foldersOpen" + iconPath));
     } catch (final Exception e) {
       e.printStackTrace();
     }

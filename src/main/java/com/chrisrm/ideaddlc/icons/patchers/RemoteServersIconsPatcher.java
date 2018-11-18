@@ -35,7 +35,7 @@ public class RemoteServersIconsPatcher extends MTIconPatcher {
   @Override
   @NotNull
   public String getPathToAppend() {
-    return "/icons/remote";
+    return "/iconsddlc/remote";
   }
 
   @Override

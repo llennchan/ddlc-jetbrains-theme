@@ -35,7 +35,7 @@ public class TasksIconsPatcher extends MTIconPatcher {
   @Override
   @NotNull
   public String getPathToAppend() {
-    return "/icons/tasks";
+    return "/iconsddlc/tasks";
   }
 
   @Override

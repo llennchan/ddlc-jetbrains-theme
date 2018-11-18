@@ -35,8 +35,8 @@ public class MTIcons {
     return IconLoader.findIcon(path);
   }
 
-  public static final Icon EXCLUDED = load("/icons/modules/ExcludedTreeOpen.svg");
-  public static final Icon MODULE = load("/icons/modules/ModuleOpen.svg");
-  public static final Icon SOURCE = load("/icons/modules/sourceRootOpen.svg");
-  public static final Icon TEST = load("/icons/modules/testRootOpen.svg");
+  public static final Icon EXCLUDED = load("/iconsddlc/modules/ExcludedTreeOpen.svg");
+  public static final Icon MODULE = load("/iconsddlc/modules/ModuleOpen.svg");
+  public static final Icon SOURCE = load("/iconsddlc/modules/sourceRootOpen.svg");
+  public static final Icon TEST = load("/iconsddlc/modules/testRootOpen.svg");
 }

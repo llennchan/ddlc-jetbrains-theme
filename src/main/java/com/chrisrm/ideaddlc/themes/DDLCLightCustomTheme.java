@@ -41,7 +41,7 @@ public class DDLCLightCustomTheme extends DDLCAbstractTheme {
   public static final String DISABLED = "eae8e8";
 
   public DDLCLightCustomTheme() {
-    super("mt.light_custom", "Material Light Custom", false, "Light Custom", "/icons/actions/themes/light_custom.svg");
+    super("mt.light_custom", "Material Light Custom", false, "Light Custom", "/iconsddlc/actions/themes/light_custom.svg");
   }
 
   @NotNull

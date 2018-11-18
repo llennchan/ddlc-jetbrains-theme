@@ -35,7 +35,7 @@ public class MakoIconsPatcher extends MTIconPatcher {
   @Override
   @NotNull
   public String getPathToAppend() {
-    return "/icons/plugins/python/mako";
+    return "/iconsddlc/plugins/python/mako";
   }
 
   @Override

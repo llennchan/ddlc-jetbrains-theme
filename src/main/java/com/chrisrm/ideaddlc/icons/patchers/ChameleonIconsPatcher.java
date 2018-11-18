@@ -35,7 +35,7 @@ public class ChameleonIconsPatcher extends MTIconPatcher {
   @Override
   @NotNull
   public String getPathToAppend() {
-    return "/icons/plugins/python/chameleon";
+    return "/iconsddlc/plugins/python/chameleon";
   }
 
   @Override
