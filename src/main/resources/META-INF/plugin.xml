@@ -56,6 +56,8 @@
         <applicationService serviceImplementation="com.chrisrm.ideaddlc.MTThemeManager"/>
         <applicationService serviceImplementation="com.chrisrm.ideaddlc.MTAnalytics"/>
 
+        <errorHandler implementation="io.acari.DDLC.DokiDokiErrorSubmitter"/>
+
         <applicationService serviceImplementation="io.acari.DDLC.icons.tinted.TintedIconsService"/>
         <applicationConfigurable instance="com.chrisrm.ideaddlc.config.MTConfigurable"
                                  groupId="appearance"
