@@ -387,7 +387,6 @@ abstract class DokiDokiTheme(val ddlcThemeId: String,
                 "PasswordField.selectionForeground",
                 "TextArea.selectionForeground",
                 "Label.selectedForeground",
-                "Button.darcula.selectedButtonForeground",
                 "PasswordField.selectionForeground",
                 "TextField.selectionForeground",
                 "TextArea.selectionForeground"
