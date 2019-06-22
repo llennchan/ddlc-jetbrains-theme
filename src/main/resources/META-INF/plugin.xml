@@ -78,6 +78,8 @@
         <bundledColorScheme path="/colors/Yuri"/>
         <bundledColorScheme path="/colors/Edgy"/>
 
+        <bundledColorScheme path="/colors/Neera"/>
+
         <welcomeFrameProvider implementation="com.chrisrm.ideaddlc.ui.MTFlatWelcomeFrameProvider"
                               order="FIRST"/>
 
@@ -170,6 +172,15 @@
             <action id="Yuri" class="io.acari.DDLC.actions.themes.literature.club.YuriThemeAction"
                     text="Yuri" description="Yuri"
                     icon="/icons/actions/themes/material_yuri@2x.png">
+            </action>
+        </group>
+        <group id="DDLC.AnthroThemeChooser" text="Anthro Themes" popup="true"
+               icon="/icons/ddlc/ddlcTheme.svg">
+            <add-to-group group-id="MainToolBar" anchor="last"/>
+
+            <action id="NeeraTheme" class="io.acari.DDLC.actions.themes.literature.club.JustMonikaThemeAction"
+                    text="Just Monika" description="Just Monika"
+                    icon="/icons/actions/themes/material_monika@2x.png">
             </action>
         </group>
 
