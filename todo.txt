@@ -57,11 +57,18 @@ Rating Stars
 
 Shit to fix
 ----
+e4ff10 - green
+EF2066 - red
+78DCE8 - cyan
+BD93F9 - purple
+FFB86C - orange
+---
 
-F48FF7 - pink
 
-732d45 -red
+44b3d4 - blue
 
-3961F6 - blue
+9e949b - light grey
 
-944363 - new red
+b1abbe - teef
+
+bca3aa -ears
