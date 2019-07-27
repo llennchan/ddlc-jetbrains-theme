@@ -62,8 +62,10 @@ EF2066 - red
 78DCE8 - cyan
 BD93F9 - purple
 FFB86C - orange
+F59762 - other orange
 ---
 
+CDFF15
 
 44b3d4 - blue
 
