@@ -79,3 +79,7 @@ Rating Stars
 
 Shit to fix
 ----
+ef2066 -> 1A59CB
+
+BD84DD -> 48EF3D
+
