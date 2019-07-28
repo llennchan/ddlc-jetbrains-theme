@@ -439,7 +439,8 @@ abstract class DokiDokiTheme(private val ddlcThemeId: String,
                 "Label.selectedForeground",
                 "PasswordField.selectionForeground",
                 "TextField.selectionForeground",
-                "TextArea.selectionForeground"
+                "TextArea.selectionForeground",
+                "SearchEverywhere.Tab.selectedForeground"
         )
     }
 
@@ -531,7 +532,6 @@ abstract class DokiDokiTheme(private val ddlcThemeId: String,
                 "SearchEverywhere.SearchField.Border.color",
                 "SearchEverywhere.SearchField.borderColor",
                 "SearchEverywhere.Advertiser.background",
-                "SearchEverywhere.Advertiser.foreground",
                 "SearchEverywhere.Header.background",
                 "SearchEverywhere.List.separatorColor",
                 "SearchEverywhere.SearchField.background",
